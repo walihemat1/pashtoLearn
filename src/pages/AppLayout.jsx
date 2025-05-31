@@ -2,6 +2,7 @@ import React from "react";
 
 import Sidebar from "../components/Sidebar";
 import Topbar from "../components/Topbar";
+import { Outlet } from "react-router-dom";
 
 function AppLayout() {
   return (
@@ -10,7 +11,7 @@ function AppLayout() {
       <div className="flex flex-col w-full h-full">
         <Topbar />
         <main className="w-full h-lvh bg-amber-600 overflow-x-hidden overflow-y-auto">
-          this main
+          <Outlet />
         </main>
       </div>
     </div>
