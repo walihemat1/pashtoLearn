@@ -8,7 +8,7 @@ function SidebarItem({ to, children }) {
         to={to}
         className={({ isActive }) =>
           isActive
-            ? " text-gray-900 w-full bg-blue-100 rounded-sm px-3 py-2"
+            ? " text-gray-900 w-full bg-blue-50 rounded-sm px-3 py-2"
             : "w-full px-3 py-2"
         }
       >
